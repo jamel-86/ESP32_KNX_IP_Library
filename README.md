@@ -32,7 +32,7 @@ int8_t some_var = 0;
 void setup()
 {
 	// Register a callback that is called when a configurable group address is receiving a telegram
-  knx.callback_register("Set/Get callback", my_callback);
+  	knx.callback_register("Set/Get callback", my_callback);
 	knx.callback_register("Write callback", my_other_callback);
 
 	int default_val = 21;
