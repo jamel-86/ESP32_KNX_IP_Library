@@ -1,4 +1,4 @@
-# ESP-KNX-IP
+# ESP32-KNX-IP
 
 This is a ported fork of the original ESP8266 by @envy, all kudos to him
 https://github.com/envy/esp-knx-ip
