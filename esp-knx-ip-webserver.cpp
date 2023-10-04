@@ -14,7 +14,7 @@ void ESPKNXIP::__handle_root()
   m += F("<style>.input-group-insert > .input-group-text { border-radius: 0; }</style>");
 #endif
   m += F("</head><body><div class='container-fluid'>");
-  m += F("<h2>Derrick's & Jamel's Distance Sensor</h2>");
+  m += F("<h2>Distance Sensor b00.01</h2>");
 
   // Feedback
 
@@ -145,6 +145,7 @@ void ESPKNXIP::__handle_root()
   m += F("</form>");
 
   if (registered_configs > 0)
+  m += F("<h4>Configuration 2</h4>");
   {
     for (config_id_t i = 0; i < registered_configs; ++i)
     {
