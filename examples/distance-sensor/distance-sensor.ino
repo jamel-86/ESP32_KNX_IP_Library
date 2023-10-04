@@ -1,8 +1,8 @@
 #include <NewPing.h>
 #include <esp-knx-ip.h>
 
-const char *ssid = "JamesKik";   //  your network SSID (name)
-const char *pass = "JamesKook";  // your network password
+const char *ssid = "my_ssid";   //  your network SSID (name)
+const char *pass = "my_pwd";  // your network password
 
 // Pin definitions
 #define LED_PIN_1 22
